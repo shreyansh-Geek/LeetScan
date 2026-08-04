@@ -1,0 +1,74 @@
+# =========================
+# Maven
+# =========================
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# Eclipse / STS
+# =========================
+.project
+.classpath
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Local Environment / Secrets
+# =========================
+application-local.properties
+.env
+.env.*
+*.env
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# Keep these tracked
+# =========================
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
